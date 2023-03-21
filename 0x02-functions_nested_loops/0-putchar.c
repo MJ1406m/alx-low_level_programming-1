@@ -1,4 +1,3 @@
-#include "holberton.h"
 #include "main.h"
 /**
  * main - The main function
