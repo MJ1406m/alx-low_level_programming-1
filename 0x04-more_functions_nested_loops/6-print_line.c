@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_line - draws a straight line in the terminal.
- * @n: n - Variable
+ * print_line -  checks for checks for a digit (0 through 9).
+ * @n: n -  Variable
  * Return: Always 0.
  */
 void print_line(int n)
