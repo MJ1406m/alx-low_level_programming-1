@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main -  checks for checks for a digit (0 through 9).
+ * main -  fizzbuzz function
  * Return: Always 0.
  */
 int main(void)
