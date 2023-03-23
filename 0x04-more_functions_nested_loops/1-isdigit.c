@@ -1,6 +1,7 @@
 #include <main.h>
 /**
  * _isdigit - scans digits in 0 through 9
+ * @c: c -  Variable
  * Return: 1 if success else 0
  */
 int _isdigit(int c)
