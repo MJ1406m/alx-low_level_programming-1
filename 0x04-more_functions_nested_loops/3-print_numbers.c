@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_numers - checks for a digit in 0 through 9 and prints a new line
+ * print_numers - checks for a digit in 0 through 9.
  *
  * Return:0
  */
