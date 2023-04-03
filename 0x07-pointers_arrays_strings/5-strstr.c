@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strstr - function that locates a substring
  * @haystack: first value -char
@@ -10,6 +11,7 @@ char *_strstr(char *haystack, char *needle)
 {
 	int count = 0, a = 0, k, j = 0, l, i = 0;
 	char *p;
+
 	while (needle[count] != '\0')
 	{
 		count++;
