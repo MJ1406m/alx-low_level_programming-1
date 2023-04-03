@@ -3,7 +3,7 @@
  * _strspn - function that gets the length of prefix substring
  * @s: first value - char
  * @accept: second value - char
- * 
+ *
  * Return: char with result
  */
 unsigned int _strspn(char *s, char *accept)
@@ -20,7 +20,7 @@ unsigned int _strspn(char *s, char *accept)
 			j++;
 		}
 		i++;
-		j=0;
+		j = 0;
 	}
 	return (a);
 }
