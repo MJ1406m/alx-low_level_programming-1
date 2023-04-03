@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
- * _strstr - function that locates a substring
- * @haystack: first value -char
- * @needle: second value - char
+ * _strstr - function that locates a substring.
+ *@haystack: first value -char
+ *@needle: second value - char
  *
  * Return: char with result
  */
@@ -19,7 +18,7 @@ char *_strstr(char *haystack, char *needle)
 	while (haystack[i] != '\0')
 	{
 		i++;
-		}
+			}
 	if (count == 0)
 		return (haystack);
 	while (haystack[j] != '\0')
@@ -38,7 +37,7 @@ char *_strstr(char *haystack, char *needle)
 		}
 		if (a == count)
 			return (p);
-		j++
+		j++;
 	}
 	return ('\0');
 }
